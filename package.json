@@ -1,0 +1,24 @@
+{
+  "name": "systemjs-plugin-svg",
+  "version": "0.1.0",
+  "description": "SVG loader plugin for SystemJS",
+  "main": "svg.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuzonp/systemjs-plugin-svg.git"
+  },
+  "keywords": [
+    "systemjs",
+    "svg",
+    "jspm"
+  ],
+  "author": "Thomas Girard (http://www.thomasgirard.fr/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vuzonp/systemjs-plugin-svg/issues"
+  },
+  "homepage": "https://github.com/vuzonp/systemjs-plugin-svg#readme",
+  "devDependencies": {
+    "systemjs": "^0.19.17"
+  }
+}
