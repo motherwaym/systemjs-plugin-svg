@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <div id="result"></div>
+
+    <script src="node_modules/systemjs/dist/system.js" charset="utf-8"></script>
+    <script type="text/javascript">
+
+    var $res = document.getElementById('result');
+
+    System.import('./test.svg!svg.js').then(function(doc) {
+      console.log(doc);
+      $res.appendChild(doc.documentElement);
+    }).catch(function(e) {
+      console.log(e);
+      $res.textContent = 'Oops: ' + e.message;
+    });
+
+    </script>
+</html>
