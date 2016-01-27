@@ -1,6 +1,6 @@
 {
   "name": "systemjs-plugin-svg",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "SVG loader plugin for SystemJS",
   "main": "svg.js",
   "repository": {
